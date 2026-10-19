@@ -1,0 +1,31 @@
+# Local-only project notes — never pushed
+FiqhBoard_Handoff.md
+FIQHBOARD_TODO.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Data built locally (shipped separately, never committed raw)
+*.sqlite
+*.sqlite3
+*.db
+
+# Node / npm
+node_modules/
+*.tgz
+package-lock.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# desktop builds
+dist-app/

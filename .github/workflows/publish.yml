@@ -1,0 +1,99 @@
+# One release, everywhere at once. A tag v* → check → build → PyPI → GitHub Release.
+# Nothing is published unless the check and the build succeed, so GitHub and PyPI never differ.
+# The file name (publish.yml) and the "pypi" environment are what PyPI's trusted publishing is tied to: keep them.
+# (The desktop applications — portable exe, AppImage, macOS — join this pipeline in P1.)
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: One version everywhere, and its CHANGELOG section
+        run: |
+          python - "${GITHUB_REF_NAME}" <<'EOF'
+          import json, re, sys, pathlib
+          tag = sys.argv[1]
+          want = tag[1:] if tag.startswith("v") else tag
+          found = {
+              "src/fiqhboard/__init__.py": re.search(r'__version__ = "([^"]+)"', pathlib.Path("src/fiqhboard/__init__.py").read_text()).group(1),
+              "js/package.json": json.loads(pathlib.Path("js/package.json").read_text())["version"],
+              "js/index.js": re.search(r'export const version = "([^"]+)"', pathlib.Path("js/index.js").read_text()).group(1),
+          }
+          bad = {k: v for k, v in found.items() if v != want}
+          if bad:
+              sys.exit(f"tag {tag} but: {bad}")
+          text = pathlib.Path("CHANGELOG.md").read_text(encoding="utf-8")
+          m = re.search(r"^## \[" + re.escape(want) + r"\][^\n]*\n(.*?)(?=^## \[|\Z)", text, re.S | re.M)
+          if not m:
+              sys.exit(f"CHANGELOG.md has no section ## [{want}]")
+          pathlib.Path("release-notes.md").write_text(m.group(1).strip() + "\n", encoding="utf-8")
+          print(f"one version everywhere: {want}; CHANGELOG.md has the {want} section")
+          EOF
+      - uses: actions/upload-artifact@v7
+        with:
+          name: release-notes
+          path: release-notes.md
+
+  python:
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade build twine
+      - run: python -m build
+      - run: python -m twine check dist/*
+      - uses: actions/upload-artifact@v7
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    needs: python
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+
+  github-release:
+    needs: publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          path: artifacts/
+      - name: Gather the files and their checksums
+        run: |
+          mkdir release
+          find artifacts -type f \( -name '*.whl' -o -name '*.tar.gz' \) -exec cp {} release/ \;
+          cd release && sha256sum * > SHA256SUMS.txt && cat SHA256SUMS.txt
+      - name: Create the GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" release/* \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "fiqhboard ${GITHUB_REF_NAME#v}" \
+            --notes-file artifacts/release-notes/release-notes.md

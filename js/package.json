@@ -1,0 +1,44 @@
+{
+  "name": "fiqhboard",
+  "version": "0.0.1",
+  "description": "Comparative fiqh of the four Sunni schools: side-by-side matrices, every ruling with its source and evidence",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "fiqh",
+    "islamic law",
+    "madhhab",
+    "hanafi",
+    "maliki",
+    "shafii",
+    "hanbali",
+    "islamic studies"
+  ],
+  "author": "Bayram Kotan",
+  "license": "MIT",
+  "homepage": "https://github.com/bayramkotan/fiqhboard/tree/main/js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayramkotan/fiqhboard.git",
+    "directory": "js"
+  },
+  "bugs": {
+    "url": "https://github.com/bayramkotan/fiqhboard/issues"
+  }
+}
