@@ -41,6 +41,8 @@ jobs:
           pathlib.Path("release-notes.md").write_text(m.group(1).strip() + "\n", encoding="utf-8")
           print(f"one version everywhere: {want}; CHANGELOG.md has the {want} section")
           EOF
+      - name: The npm README is made from README.md
+        run: python tools/sync_readme.py --check
       - uses: actions/upload-artifact@v7
         with:
           name: release-notes

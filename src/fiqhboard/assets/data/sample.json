@@ -1,0 +1,1576 @@
+{
+ "format": 1,
+ "status": "draft",
+ "note": {
+  "en": "Pilot data to shape the interface. Every position is a draft: the works are named, the volume and page are not yet checked. Do not cite.",
+  "tr": "Arayüzü şekillendirmek için pilot veri. Her görüş taslaktır: eser adı verildi, cilt ve sayfa henüz doğrulanmadı. Kaynak olarak kullanmayın.",
+  "ar": "بيانات تجريبية لتشكيل الواجهة. كل قول هنا مسوَّدة: ذُكر الكتاب ولم يُتحقَّق بعدُ من الجزء والصفحة. لا يُعتمد عليها."
+ },
+ "schools": [
+  {
+   "id": "hanafi",
+   "name": {
+    "en": "Hanafi",
+    "tr": "Hanefî",
+    "ar": "الحنفية"
+   },
+   "eponym": {
+    "en": "Abu Hanifa (d. 150)",
+    "tr": "Ebû Hanîfe (ö. 150)",
+    "ar": "أبو حنيفة (ت ١٥٠)"
+   }
+  },
+  {
+   "id": "maliki",
+   "name": {
+    "en": "Maliki",
+    "tr": "Mâlikî",
+    "ar": "المالكية"
+   },
+   "eponym": {
+    "en": "Malik ibn Anas (d. 179)",
+    "tr": "Mâlik b. Enes (ö. 179)",
+    "ar": "مالك بن أنس (ت ١٧٩)"
+   }
+  },
+  {
+   "id": "shafii",
+   "name": {
+    "en": "Shafi'i",
+    "tr": "Şâfiî",
+    "ar": "الشافعية"
+   },
+   "eponym": {
+    "en": "al-Shafi'i (d. 204)",
+    "tr": "İmam Şâfiî (ö. 204)",
+    "ar": "الشافعي (ت ٢٠٤)"
+   }
+  },
+  {
+   "id": "hanbali",
+   "name": {
+    "en": "Hanbali",
+    "tr": "Hanbelî",
+    "ar": "الحنابلة"
+   },
+   "eponym": {
+    "en": "Ahmad ibn Hanbal (d. 241)",
+    "tr": "Ahmed b. Hanbel (ö. 241)",
+    "ar": "أحمد بن حنبل (ت ٢٤١)"
+   }
+  }
+ ],
+ "bases": {
+  "mufta_bihi": {
+   "latin": "al-muftā bihi",
+   "ar": "المفتى به",
+   "school": "hanafi"
+  },
+  "mashhur": {
+   "latin": "al-mashhūr",
+   "ar": "المشهور",
+   "school": "maliki"
+  },
+  "asahh": {
+   "latin": "al-aṣaḥḥ",
+   "ar": "الأصح",
+   "school": "shafii"
+  },
+  "madhhab": {
+   "latin": "al-madhhab",
+   "ar": "المذهب",
+   "school": "hanbali"
+  },
+  "qadim": {
+   "latin": "al-qawl al-qadīm",
+   "ar": "القول القديم",
+   "school": "shafii"
+  },
+  "riwaya": {
+   "latin": "riwāya",
+   "ar": "رواية"
+  }
+ },
+ "works": [
+  {
+   "id": "quduri",
+   "school": "hanafi",
+   "title": "al-Mukhtaṣar",
+   "title_ar": "المختصر",
+   "author": "al-Qudūrī",
+   "author_ar": "القدوري",
+   "died": 428
+  },
+  {
+   "id": "hidaya",
+   "school": "hanafi",
+   "title": "al-Hidāya",
+   "title_ar": "الهداية",
+   "author": "al-Marghīnānī",
+   "author_ar": "المرغيناني",
+   "died": 593
+  },
+  {
+   "id": "radd",
+   "school": "hanafi",
+   "title": "Radd al-Muḥtār",
+   "title_ar": "رد المحتار",
+   "author": "Ibn ʿĀbidīn",
+   "author_ar": "ابن عابدين",
+   "died": 1252
+  },
+  {
+   "id": "khalil",
+   "school": "maliki",
+   "title": "al-Mukhtaṣar",
+   "title_ar": "المختصر",
+   "author": "Khalīl ibn Isḥāq",
+   "author_ar": "خليل بن إسحاق",
+   "died": 776
+  },
+  {
+   "id": "sharh_kabir",
+   "school": "maliki",
+   "title": "al-Sharḥ al-Kabīr",
+   "title_ar": "الشرح الكبير",
+   "author": "al-Dardīr",
+   "author_ar": "الدردير",
+   "died": 1201
+  },
+  {
+   "id": "minhaj",
+   "school": "shafii",
+   "title": "Minhāj al-Ṭālibīn",
+   "title_ar": "منهاج الطالبين",
+   "author": "al-Nawawī",
+   "author_ar": "النووي",
+   "died": 676
+  },
+  {
+   "id": "tuhfa",
+   "school": "shafii",
+   "title": "Tuḥfat al-Muḥtāj",
+   "title_ar": "تحفة المحتاج",
+   "author": "Ibn Ḥajar al-Haytamī",
+   "author_ar": "ابن حجر الهيتمي",
+   "died": 974
+  },
+  {
+   "id": "umda",
+   "school": "hanbali",
+   "title": "ʿUmdat al-Fiqh",
+   "title_ar": "عمدة الفقه",
+   "author": "Ibn Qudāma",
+   "author_ar": "ابن قدامة",
+   "died": 620
+  },
+  {
+   "id": "kashshaf",
+   "school": "hanbali",
+   "title": "Kashshāf al-Qināʿ",
+   "title_ar": "كشاف القناع",
+   "author": "al-Buhūtī",
+   "author_ar": "البهوتي",
+   "died": 1051
+  },
+  {
+   "id": "bidaya",
+   "school": null,
+   "title": "Bidāyat al-Mujtahid",
+   "title_ar": "بداية المجتهد",
+   "author": "Ibn Rushd",
+   "author_ar": "ابن رشد",
+   "died": 595
+  },
+  {
+   "id": "mughni",
+   "school": null,
+   "title": "al-Mughnī",
+   "title_ar": "المغني",
+   "author": "Ibn Qudāma",
+   "author_ar": "ابن قدامة",
+   "died": 620
+  }
+ ],
+ "evidence": [
+  {
+   "id": "quran:5:6",
+   "kind": "quran",
+   "ref": {
+    "en": "Qur'an, al-Ma'ida 5:6",
+    "tr": "Kur'ân, Mâide 5:6",
+    "ar": "المائدة ٥: ٦"
+   },
+   "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ",
+   "text": {
+    "en": "O you who believe, when you rise to pray, wash your faces and your hands up to the elbows, wipe over your heads, and wash your feet up to the ankles.",
+    "tr": "Ey iman edenler! Namaza kalktığınızda yüzlerinizi ve dirseklere kadar ellerinizi yıkayın, başlarınızı meshedin ve topuklara kadar ayaklarınızı yıkayın."
+   }
+  },
+  {
+   "id": "quran:4:43",
+   "kind": "quran",
+   "ref": {
+    "en": "Qur'an, al-Nisa' 4:43",
+    "tr": "Kur'ân, Nisâ 4:43",
+    "ar": "النساء ٤: ٤٣"
+   },
+   "ar": "أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا",
+   "text": {
+    "en": "…or you have touched women and find no water, then seek clean earth.",
+    "tr": "…yahut kadınlara dokunmuşsanız ve su bulamamışsanız, temiz bir toprakla teyemmüm edin."
+   }
+  },
+  {
+   "id": "bukhari:1",
+   "kind": "hadith",
+   "ref": {
+    "en": "al-Bukhari 1",
+    "tr": "Buhârî, 1",
+    "ar": "صحيح البخاري ١"
+   },
+   "ar": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+   "text": {
+    "en": "Actions are only by intentions, and every person has only what he intended.",
+    "tr": "Ameller ancak niyetlere göredir; herkese ancak niyet ettiği vardır."
+   }
+  },
+  {
+   "id": "muslim:360",
+   "kind": "hadith",
+   "ref": {
+    "en": "Muslim 360",
+    "tr": "Müslim, 360",
+    "ar": "صحيح مسلم ٣٦٠"
+   },
+   "ar": "أَأَتَوَضَّأُ مِنْ لُحُومِ الْإِبِلِ؟ قَالَ: نَعَمْ، فَتَوَضَّأْ مِنْ لُحُومِ الْإِبِلِ",
+   "text": {
+    "en": "\"Shall I perform wudu after eating camel meat?\" He said: \"Yes, perform wudu after camel meat.\"",
+    "tr": "\"Deve etinden dolayı abdest alayım mı?\" Buyurdu ki: \"Evet, deve etinden dolayı abdest al.\""
+   }
+  },
+  {
+   "id": "abudawud:181",
+   "kind": "hadith",
+   "ref": {
+    "en": "Abu Dawud 181 (Busra bint Safwan)",
+    "tr": "Ebû Dâvûd, 181 (Büsre bt. Safvân)",
+    "ar": "سنن أبي داود ١٨١ (بسرة بنت صفوان)"
+   },
+   "ar": "مَنْ مَسَّ ذَكَرَهُ فَلْيَتَوَضَّأْ",
+   "text": {
+    "en": "Whoever touches his private part, let him perform wudu.",
+    "tr": "Kim tenasül uzvuna dokunursa abdest alsın."
+   }
+  },
+  {
+   "id": "abudawud:182",
+   "kind": "hadith",
+   "ref": {
+    "en": "Abu Dawud 182 (Talq ibn 'Ali)",
+    "tr": "Ebû Dâvûd, 182 (Talk b. Ali)",
+    "ar": "سنن أبي داود ١٨٢ (طلق بن علي)"
+   },
+   "ar": "هَلْ هُوَ إِلَّا مُضْغَةٌ مِنْهُ، أَوْ بَضْعَةٌ مِنْهُ",
+   "text": {
+    "en": "Is it anything but a piece of him?",
+    "tr": "O, onun bir parçasından başka nedir ki?"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "id": "fard",
+   "latin": "farḍ",
+   "ar": "فرض",
+   "def": {
+    "en": "An act whose omission makes the act it belongs to invalid, or whose omission is sinful. The Hanafis reserve farḍ for what is proven by decisive evidence; the other three schools use farḍ and wājib as one.",
+    "tr": "Terk edilmesi, ait olduğu ibadeti geçersiz kılan ya da terki günah olan fiil. Hanefîler farzı kesin delille sabit olana ayırır; diğer üç mezhep farz ile vâcibi aynı anlamda kullanır.",
+    "ar": "ما يبطل العمل بتركه أو يأثم تاركه. خصّه الحنفية بما ثبت بدليل قطعي، والجمهور على أن الفرض والواجب بمعنى واحد."
+   }
+  },
+  {
+   "id": "wajib",
+   "latin": "wājib",
+   "ar": "واجب",
+   "def": {
+    "en": "For the Hanafis, a duty proven by evidence that is not decisive, between farḍ and sunna. For the Malikis, Shafi'is and Hanbalis, the same as farḍ. The word is never mapped from one school to another.",
+    "tr": "Hanefîlerde kesin olmayan delille sabit, farz ile sünnet arasındaki yükümlülük. Mâlikî, Şâfiî ve Hanbelîlerde farzla aynı. Kelime bir mezhepten diğerine aktarılmaz.",
+    "ar": "عند الحنفية: ما ثبت بدليل ظني، وهو بين الفرض والسنة. وعند المالكية والشافعية والحنابلة: مرادف للفرض."
+   }
+  },
+  {
+   "id": "sunna",
+   "latin": "sunna",
+   "ar": "سنة",
+   "def": {
+    "en": "A practice of the Prophet ﷺ that is rewarded when done and not sinful when left; its omission does not invalidate the act.",
+    "tr": "Peygamber'in ﷺ uygulaması; yapana sevap vardır, terki günah değildir ve ibadeti geçersiz kılmaz.",
+    "ar": "ما واظب عليه النبي ﷺ، يُثاب فاعله ولا يأثم تاركه، ولا يبطل العمل بتركه."
+   }
+  },
+  {
+   "id": "shart",
+   "latin": "sharṭ",
+   "ar": "شرط",
+   "def": {
+    "en": "A condition outside the act on which its validity depends, such as purity for prayer. A ruling of the declaratory kind (waḍʿī), not a duty (taklīfī).",
+    "tr": "İbadetin dışında olup sıhhati ona bağlı olan şart; namaz için taharet gibi. Teklîfî değil vaz'î bir hükümdür.",
+    "ar": "ما يتوقف عليه وجود الحكم وليس جزءًا من ماهيته، كالطهارة للصلاة. وهو من الحكم الوضعي لا التكليفي."
+   }
+  },
+  {
+   "id": "rukn",
+   "latin": "rukn",
+   "ar": "ركن",
+   "def": {
+    "en": "An integral part of the act itself; without it the act does not exist.",
+    "tr": "İbadetin kendi içindeki asli parçası; o olmadan ibadet var olmaz.",
+    "ar": "جزء الماهية الذي لا يقوم الشيء إلا به."
+   }
+  },
+  {
+   "id": "niyya",
+   "latin": "niyya",
+   "ar": "نية",
+   "def": {
+    "en": "The intention: the heart's resolve to do an act for God.",
+    "tr": "Niyet: bir fiili Allah için yapmaya kalbin yönelmesi.",
+    "ar": "قصد القلب فعلَ العبادة تقربًا إلى الله."
+   }
+  },
+  {
+   "id": "tartib",
+   "latin": "tartīb",
+   "ar": "ترتيب",
+   "def": {
+    "en": "Order: washing the limbs in the sequence of the verse.",
+    "tr": "Tertip: uzuvları ayetteki sıraya göre yıkamak.",
+    "ar": "غسل الأعضاء على الترتيب الوارد في الآية."
+   }
+  },
+  {
+   "id": "muwalat",
+   "latin": "muwālāt",
+   "ar": "موالاة",
+   "def": {
+    "en": "Continuity: washing each limb before the previous one dries. The Malikis call it fawr.",
+    "tr": "Muvâlât: bir uzuv kurumadan diğerini yıkamak. Mâlikîler buna fevr der.",
+    "ar": "ألا يؤخر غسل عضو حتى يجف الذي قبله، ويسميه المالكية الفور."
+   }
+  },
+  {
+   "id": "dalk",
+   "latin": "dalk",
+   "ar": "دلك",
+   "def": {
+    "en": "Rubbing: passing the hand over the limb with the water.",
+    "tr": "Delk: suyla birlikte elle uzvu ovmak.",
+    "ar": "إمرار اليد على العضو مع الماء."
+   }
+  },
+  {
+   "id": "mutamad",
+   "latin": "muʿtamad",
+   "ar": "المعتمد",
+   "def": {
+    "en": "The relied-upon position of a school, the one its later authorities give fatwa by. Each school names it in its own way: al-muftā bihi, al-mashhūr, al-aṣaḥḥ, al-madhhab.",
+    "tr": "Mezhebin itimat edilen, sonraki otoritelerinin fetva verdiği görüşü. Her mezhep kendi adıyla anar: müftâ bih, meşhur, esah, mezheb.",
+    "ar": "القول الذي عليه الفتوى في المذهب، ولكل مذهب اصطلاحه: المفتى به، المشهور، الأصح، المذهب."
+   }
+  },
+  {
+   "id": "ijma",
+   "latin": "ijmāʿ",
+   "ar": "إجماع",
+   "def": {
+    "en": "The agreement of the mujtahids of an age on a ruling. The agreement of the four schools is not by itself ijmāʿ; fiqhboard shows ijmāʿ only where a source claims it.",
+    "tr": "Bir asrın müçtehitlerinin bir hükümde birleşmesi. Dört mezhebin aynı görüşte olması tek başına icmâ değildir; fiqhboard icmâyı yalnızca bir kaynak iddia ediyorsa gösterir.",
+    "ar": "اتفاق مجتهدي عصرٍ على حكم شرعي. واتفاق المذاهب الأربعة ليس إجماعًا بذاته، ولا يُذكر الإجماع إلا منسوبًا إلى من حكاه."
+   }
+  },
+  {
+   "id": "naqid",
+   "latin": "nāqiḍ (pl. nawāqiḍ)",
+   "ar": "ناقض (نواقض)",
+   "def": {
+    "en": "A nullifier: what ends a state of wudu.",
+    "tr": "Nâkız: abdesti bozan şey.",
+    "ar": "ما يُبطل الوضوء ويرفع حكمه."
+   }
+  }
+ ],
+ "topics": [
+  {
+   "id": "wudu.obligatory",
+   "path": {
+    "en": [
+     "Purity",
+     "Wudu"
+    ],
+    "tr": [
+     "Taharet",
+     "Abdest"
+    ],
+    "ar": [
+     "الطهارة",
+     "الوضوء"
+    ]
+   },
+   "title": {
+    "en": "The obligatory acts of wudu",
+    "tr": "Abdestin farzları",
+    "ar": "فرائض الوضوء"
+   },
+   "lead": {
+    "en": "Which acts, left out, leave the wudu invalid? The verse names four limbs; the schools differ on what else belongs to wudu and in what words.",
+    "tr": "Hangi fiiller terk edilirse abdest geçersiz olur? Ayet dört uzvu sayar; mezhepler başka nelerin abdeste ait olduğunda ve bunu hangi terimle söylediklerinde ayrılır.",
+    "ar": "ما الذي لا يصح الوضوء بتركه؟ ذكرت الآية أربعة أعضاء، واختلفت المذاهب فيما سواها وفي اصطلاحها."
+   },
+   "questions": [
+    {
+     "id": "face",
+     "text": {
+      "en": "Is wudu valid if the face is not washed?",
+      "tr": "Yüz yıkanmazsa abdest geçerli midir?",
+      "ar": "هل يصح الوضوء بلا غسل الوجه؟"
+     },
+     "answers": [
+      {
+       "id": "valid",
+       "label": {
+        "en": "valid",
+        "tr": "geçerli",
+        "ar": "يصح"
+       }
+      },
+      {
+       "id": "invalid",
+       "label": {
+        "en": "invalid",
+        "tr": "geçersiz",
+        "ar": "لا يصح"
+       }
+      }
+     ],
+     "terms": [
+      "fard"
+     ],
+     "evidence": [
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "madhhab",
+       "source": {
+        "work": "umda"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "niyya",
+     "text": {
+      "en": "Is wudu valid without an intention?",
+      "tr": "Niyetsiz alınan abdest geçerli midir?",
+      "ar": "هل يصح الوضوء بلا نية؟"
+     },
+     "answers": [
+      {
+       "id": "valid",
+       "label": {
+        "en": "valid",
+        "tr": "geçerli",
+        "ar": "يصح"
+       }
+      },
+      {
+       "id": "invalid",
+       "label": {
+        "en": "invalid",
+        "tr": "geçersiz",
+        "ar": "لا يصح"
+       }
+      }
+     ],
+     "terms": [
+      "niyya",
+      "sunna",
+      "fard",
+      "shart"
+     ],
+     "evidence": [
+      "bukhari:1",
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft",
+       "note": {
+        "en": "Intention is a sunna of wudu: wudu without it removes ritual impurity, though it is not rewarded as worship.",
+        "tr": "Niyet abdestin sünnetidir: niyetsiz abdest hadesi giderir, fakat ibadet sevabı kazandırmaz.",
+        "ar": "النية سنة في الوضوء، فيرتفع الحدث بدونها وإن لم يكن قربة."
+       }
+      },
+      "maliki": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "invalid",
+       "term": "shart",
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft",
+       "note": {
+        "en": "Intention is a condition (sharṭ) of purification, not one of its obligatory acts.",
+        "tr": "Niyet taharetin şartıdır, farzlarından biri değildir.",
+        "ar": "النية شرط لصحة الطهارة، لا فرض من فروضها."
+       }
+      }
+     }
+    },
+    {
+     "id": "tartib",
+     "text": {
+      "en": "Is wudu valid if the limbs are washed out of order?",
+      "tr": "Uzuvlar sırasız yıkanırsa abdest geçerli midir?",
+      "ar": "هل يصح الوضوء إذا غُسلت الأعضاء بغير ترتيب؟"
+     },
+     "answers": [
+      {
+       "id": "valid",
+       "label": {
+        "en": "valid",
+        "tr": "geçerli",
+        "ar": "يصح"
+       }
+      },
+      {
+       "id": "invalid",
+       "label": {
+        "en": "invalid",
+        "tr": "geçersiz",
+        "ar": "لا يصح"
+       }
+      }
+     ],
+     "terms": [
+      "tartib",
+      "sunna",
+      "fard"
+     ],
+     "evidence": [
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "hidaya"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "madhhab",
+       "source": {
+        "work": "umda"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "muwalat",
+     "text": {
+      "en": "Is wudu valid with a long pause between the limbs?",
+      "tr": "Uzuvlar arasında uzun ara verilirse abdest geçerli midir?",
+      "ar": "هل يصح الوضوء مع تفريق طويل بين الأعضاء؟"
+     },
+     "answers": [
+      {
+       "id": "valid",
+       "label": {
+        "en": "valid",
+        "tr": "geçerli",
+        "ar": "يصح"
+       }
+      },
+      {
+       "id": "invalid_deliberate",
+       "label": {
+        "en": "invalid if deliberate",
+        "tr": "kasıtlıysa geçersiz",
+        "ar": "لا يصح مع العمد"
+       }
+      },
+      {
+       "id": "invalid",
+       "label": {
+        "en": "invalid",
+        "tr": "geçersiz",
+        "ar": "لا يصح"
+       }
+      }
+     ],
+     "terms": [
+      "muwalat",
+      "sunna",
+      "fard",
+      "wajib"
+     ],
+     "evidence": [
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "invalid_deliberate",
+       "term": "fard",
+       "basis": "mashhur",
+       "source": {
+        "work": "sharh_kabir"
+       },
+       "status": "draft",
+       "note": {
+        "en": "Continuity (fawr) is obligatory for one who remembers and is able; a pause from forgetfulness does not void the wudu.",
+        "tr": "Fevr, hatırlayan ve gücü yetene farzdır; unutarak verilen ara abdesti bozmaz.",
+        "ar": "الفور فرض مع الذكر والقدرة، ويسقط مع النسيان والعجز."
+       }
+      },
+      "shafii": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft",
+       "other": [
+        {
+         "basis": "qadim",
+         "answer": "invalid",
+         "term": "wajib",
+         "note": {
+          "en": "In the old school (al-qadīm), continuity is required.",
+          "tr": "Kadîm görüşte muvâlât gereklidir.",
+          "ar": "وفي القديم: تجب الموالاة."
+         }
+        }
+       ]
+      },
+      "hanbali": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "mash",
+     "text": {
+      "en": "How much of the head must be wiped?",
+      "tr": "Başın ne kadarı meshedilmelidir?",
+      "ar": "ما القدر الواجب مسحه من الرأس؟"
+     },
+     "answers": [
+      {
+       "id": "part",
+       "label": {
+        "en": "any part",
+        "tr": "bir kısmı",
+        "ar": "بعضه"
+       }
+      },
+      {
+       "id": "quarter",
+       "label": {
+        "en": "a quarter",
+        "tr": "dörtte biri",
+        "ar": "ربعه"
+       }
+      },
+      {
+       "id": "whole",
+       "label": {
+        "en": "the whole head",
+        "tr": "tamamı",
+        "ar": "جميعه"
+       }
+      }
+     ],
+     "terms": [
+      "fard"
+     ],
+     "evidence": [
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "quarter",
+       "term": "fard",
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "hidaya"
+       },
+       "status": "draft",
+       "other": [
+        {
+         "basis": "riwaya",
+         "answer": "part",
+         "term": "fard",
+         "note": {
+          "en": "A report: the width of three fingers.",
+          "tr": "Bir rivayet: üç parmak miktarı.",
+          "ar": "وفي رواية: قدر ثلاثة أصابع."
+         }
+        }
+       ]
+      },
+      "maliki": {
+       "answer": "whole",
+       "term": "fard",
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "part",
+       "term": "fard",
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft",
+       "note": {
+        "en": "Whatever is called wiping, even a single hair within the bounds of the head.",
+        "tr": "Mesh denebilecek her miktar, başın sınırı içindeki tek bir kıl bile.",
+        "ar": "ما ينطلق عليه اسم المسح ولو بعض شعرة في حد الرأس."
+       }
+      },
+      "hanbali": {
+       "answer": "whole",
+       "term": "fard",
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "dalk",
+     "text": {
+      "en": "Is wudu valid without rubbing the washed limbs?",
+      "tr": "Yıkanan uzuvlar ovulmadan abdest geçerli midir?",
+      "ar": "هل يصح الوضوء بلا دلك؟"
+     },
+     "answers": [
+      {
+       "id": "valid",
+       "label": {
+        "en": "valid",
+        "tr": "geçerli",
+        "ar": "يصح"
+       }
+      },
+      {
+       "id": "invalid",
+       "label": {
+        "en": "invalid",
+        "tr": "geçersiz",
+        "ar": "لا يصح"
+       }
+      }
+     ],
+     "terms": [
+      "dalk",
+      "sunna",
+      "fard"
+     ],
+     "evidence": [
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "radd"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "invalid",
+       "term": "fard",
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "asahh",
+       "source": {
+        "work": "tuhfa"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "madmada",
+     "text": {
+      "en": "Is wudu valid without rinsing the mouth and the nose?",
+      "tr": "Ağza ve buruna su verilmeden abdest geçerli midir?",
+      "ar": "هل يصح الوضوء بلا مضمضة ولا استنشاق؟"
+     },
+     "answers": [
+      {
+       "id": "valid",
+       "label": {
+        "en": "valid",
+        "tr": "geçerli",
+        "ar": "يصح"
+       }
+      },
+      {
+       "id": "invalid",
+       "label": {
+        "en": "invalid",
+        "tr": "geçersiz",
+        "ar": "لا يصح"
+       }
+      }
+     ],
+     "terms": [
+      "sunna",
+      "wajib"
+     ],
+     "evidence": [
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft",
+       "note": {
+        "en": "A sunna in wudu; in the ritual bath (ghusl) both are obligatory.",
+        "tr": "Abdestte sünnettir; gusülde ikisi de farzdır.",
+        "ar": "سنة في الوضوء، فرض في الغسل."
+       }
+      },
+      "maliki": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "valid",
+       "term": "sunna",
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "invalid",
+       "term": "wajib",
+       "basis": "madhhab",
+       "source": {
+        "work": "umda"
+       },
+       "status": "draft",
+       "note": {
+        "en": "Mouth and nose are part of the face, so they are washed with it.",
+        "tr": "Ağız ve burun yüzden sayılır, onunla birlikte yıkanır.",
+        "ar": "الفم والأنف من الوجه، فيجبان بوجوب غسله."
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "wudu.nullifiers",
+   "path": {
+    "en": [
+     "Purity",
+     "Wudu"
+    ],
+    "tr": [
+     "Taharet",
+     "Abdest"
+    ],
+    "ar": [
+     "الطهارة",
+     "الوضوء"
+    ]
+   },
+   "title": {
+    "en": "What nullifies wudu",
+    "tr": "Abdesti bozanlar",
+    "ar": "نواقض الوضوء"
+   },
+   "lead": {
+    "en": "All four schools agree that what leaves the two private passages nullifies wudu. These rows are where they part.",
+    "tr": "Dört mezhep de iki yoldan çıkanın abdesti bozduğunda birleşir. Bu satırlar ayrıldıkları yerlerdir.",
+    "ar": "اتفقت المذاهب الأربعة على أن الخارج من السبيلين ينقض الوضوء، وهذه مواضع خلافها."
+   },
+   "questions": [
+    {
+     "id": "passages",
+     "text": {
+      "en": "Does what leaves the front or back passage nullify wudu?",
+      "tr": "Ön veya arka yoldan çıkan şey abdesti bozar mı?",
+      "ar": "هل ينقض الوضوءَ الخارجُ من السبيلين؟"
+     },
+     "answers": [
+      {
+       "id": "no",
+       "label": {
+        "en": "does not nullify",
+        "tr": "bozmaz",
+        "ar": "لا ينقض"
+       }
+      },
+      {
+       "id": "yes",
+       "label": {
+        "en": "nullifies",
+        "tr": "bozar",
+        "ar": "ينقض"
+       }
+      }
+     ],
+     "terms": [
+      "naqid"
+     ],
+     "evidence": [
+      "quran:5:6"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "yes",
+       "term": null,
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "yes",
+       "term": null,
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "yes",
+       "term": null,
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "yes",
+       "term": null,
+       "basis": "madhhab",
+       "source": {
+        "work": "umda"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "sleep",
+     "text": {
+      "en": "Does deep sleep, lying on one's side, nullify wudu?",
+      "tr": "Yan yatarak derin uyumak abdesti bozar mı?",
+      "ar": "هل ينقض الوضوءَ النومُ المستغرق مضطجعًا؟"
+     },
+     "answers": [
+      {
+       "id": "no",
+       "label": {
+        "en": "does not nullify",
+        "tr": "bozmaz",
+        "ar": "لا ينقض"
+       }
+      },
+      {
+       "id": "yes",
+       "label": {
+        "en": "nullifies",
+        "tr": "bozar",
+        "ar": "ينقض"
+       }
+      }
+     ],
+     "terms": [
+      "naqid"
+     ],
+     "evidence": [],
+     "positions": {
+      "hanafi": {
+       "answer": "yes",
+       "term": null,
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "yes",
+       "term": null,
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "yes",
+       "term": null,
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft",
+       "note": {
+        "en": "Sleep breaks wudu unless one sits firmly seated on the ground.",
+        "tr": "Oturağı yere sağlam yerleşmiş olarak oturan hariç uyku abdesti bozar.",
+        "ar": "ينقض النوم إلا نوم ممكِّنٍ مقعدَه من الأرض."
+       }
+      },
+      "hanbali": {
+       "answer": "yes",
+       "term": null,
+       "basis": "madhhab",
+       "source": {
+        "work": "umda"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "touch_woman",
+     "text": {
+      "en": "Does a man touching a woman who is not a close relative (skin on skin) nullify wudu?",
+      "tr": "Erkeğin mahremi olmayan bir kadına (ten tene) dokunması abdesti bozar mı?",
+      "ar": "هل ينقض الوضوءَ لمسُ الرجل المرأةَ الأجنبية بلا حائل؟"
+     },
+     "answers": [
+      {
+       "id": "no",
+       "label": {
+        "en": "does not nullify",
+        "tr": "bozmaz",
+        "ar": "لا ينقض"
+       }
+      },
+      {
+       "id": "desire",
+       "label": {
+        "en": "nullifies with desire",
+        "tr": "şehvetle bozar",
+        "ar": "ينقض بشهوة"
+       }
+      },
+      {
+       "id": "yes",
+       "label": {
+        "en": "nullifies",
+        "tr": "bozar",
+        "ar": "ينقض"
+       }
+      }
+     ],
+     "terms": [
+      "naqid"
+     ],
+     "evidence": [
+      "quran:4:43"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "no",
+       "term": null,
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "hidaya"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "desire",
+       "term": null,
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft",
+       "note": {
+        "en": "When pleasure is intended or felt.",
+        "tr": "Lezzet kastedilir ya da duyulursa.",
+        "ar": "إن قصد اللذة أو وجدها."
+       }
+      },
+      "shafii": {
+       "answer": "yes",
+       "term": null,
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "desire",
+       "term": null,
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "blood",
+     "text": {
+      "en": "Does blood flowing from a wound nullify wudu?",
+      "tr": "Yaradan akan kan abdesti bozar mı?",
+      "ar": "هل ينقض الوضوءَ الدمُ السائل من جرح؟"
+     },
+     "answers": [
+      {
+       "id": "no",
+       "label": {
+        "en": "does not nullify",
+        "tr": "bozmaz",
+        "ar": "لا ينقض"
+       }
+      },
+      {
+       "id": "flows",
+       "label": {
+        "en": "nullifies if it flows",
+        "tr": "akarsa bozar",
+        "ar": "ينقض إن سال"
+       }
+      },
+      {
+       "id": "much",
+       "label": {
+        "en": "nullifies if excessive",
+        "tr": "çoksa bozar",
+        "ar": "ينقض إن فحش"
+       }
+      }
+     ],
+     "terms": [
+      "naqid"
+     ],
+     "evidence": [],
+     "positions": {
+      "hanafi": {
+       "answer": "flows",
+       "term": null,
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft",
+       "note": {
+        "en": "When it flows beyond the place it came out of.",
+        "tr": "Çıktığı yerden taşıp akarsa.",
+        "ar": "إذا سال إلى موضع يلحقه حكم التطهير."
+       }
+      },
+      "maliki": {
+       "answer": "no",
+       "term": null,
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "no",
+       "term": null,
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "much",
+       "term": null,
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "laugh",
+     "text": {
+      "en": "Does laughing aloud during prayer nullify wudu?",
+      "tr": "Namazda kahkahayla gülmek abdesti bozar mı?",
+      "ar": "هل تنقض القهقهةُ في الصلاة الوضوءَ؟"
+     },
+     "answers": [
+      {
+       "id": "no",
+       "label": {
+        "en": "does not nullify",
+        "tr": "bozmaz",
+        "ar": "لا ينقض"
+       }
+      },
+      {
+       "id": "yes",
+       "label": {
+        "en": "nullifies",
+        "tr": "bozar",
+        "ar": "ينقض"
+       }
+      }
+     ],
+     "terms": [
+      "naqid"
+     ],
+     "evidence": [],
+     "positions": {
+      "hanafi": {
+       "answer": "yes",
+       "term": null,
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "quduri"
+       },
+       "status": "draft",
+       "note": {
+        "en": "For an adult, in a prayer with bowing and prostration.",
+        "tr": "Ergen kişi için, rükû ve secdeli namazda.",
+        "ar": "من البالغ في صلاة ذات ركوع وسجود."
+       }
+      },
+      "maliki": {
+       "answer": "no",
+       "term": null,
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft",
+       "note": {
+        "en": "The prayer is broken; the wudu is not.",
+        "tr": "Namaz bozulur, abdest bozulmaz.",
+        "ar": "تبطل الصلاة دون الوضوء."
+       }
+      },
+      "shafii": {
+       "answer": "no",
+       "term": null,
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft"
+      },
+      "hanbali": {
+       "answer": "no",
+       "term": null,
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "touch_private",
+     "text": {
+      "en": "Does touching one's private part with the hand nullify wudu?",
+      "tr": "Elle tenasül uzvuna dokunmak abdesti bozar mı?",
+      "ar": "هل ينقض الوضوءَ مسُّ الذكر باليد؟"
+     },
+     "answers": [
+      {
+       "id": "no",
+       "label": {
+        "en": "does not nullify",
+        "tr": "bozmaz",
+        "ar": "لا ينقض"
+       }
+      },
+      {
+       "id": "yes",
+       "label": {
+        "en": "nullifies",
+        "tr": "bozar",
+        "ar": "ينقض"
+       }
+      }
+     ],
+     "terms": [
+      "naqid"
+     ],
+     "evidence": [
+      "abudawud:181",
+      "abudawud:182"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "no",
+       "term": null,
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "hidaya"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "yes",
+       "term": null,
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft",
+       "note": {
+        "en": "With the palm or the inside of the fingers.",
+        "tr": "Avuç içi ya da parmakların iç yüzüyle.",
+        "ar": "ببطن الكف أو بطن الأصابع."
+       }
+      },
+      "shafii": {
+       "answer": "yes",
+       "term": null,
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft",
+       "note": {
+        "en": "With the inside of the palm.",
+        "tr": "Avuç içiyle.",
+        "ar": "ببطن الكف."
+       }
+      },
+      "hanbali": {
+       "answer": "yes",
+       "term": null,
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    },
+    {
+     "id": "camel",
+     "text": {
+      "en": "Does eating camel meat nullify wudu?",
+      "tr": "Deve eti yemek abdesti bozar mı?",
+      "ar": "هل ينقض أكلُ لحم الإبل الوضوءَ؟"
+     },
+     "answers": [
+      {
+       "id": "no",
+       "label": {
+        "en": "does not nullify",
+        "tr": "bozmaz",
+        "ar": "لا ينقض"
+       }
+      },
+      {
+       "id": "yes",
+       "label": {
+        "en": "nullifies",
+        "tr": "bozar",
+        "ar": "ينقض"
+       }
+      }
+     ],
+     "terms": [
+      "naqid"
+     ],
+     "evidence": [
+      "muslim:360"
+     ],
+     "positions": {
+      "hanafi": {
+       "answer": "no",
+       "term": null,
+       "basis": "mufta_bihi",
+       "source": {
+        "work": "hidaya"
+       },
+       "status": "draft"
+      },
+      "maliki": {
+       "answer": "no",
+       "term": null,
+       "basis": "mashhur",
+       "source": {
+        "work": "khalil"
+       },
+       "status": "draft"
+      },
+      "shafii": {
+       "answer": "no",
+       "term": null,
+       "basis": "asahh",
+       "source": {
+        "work": "minhaj"
+       },
+       "status": "draft",
+       "note": {
+        "en": "al-Nawawi held the opposite view to be stronger in evidence, while recording the school's position.",
+        "tr": "Nevevî mezhebin görüşünü kaydetmekle birlikte karşı görüşün delilce daha güçlü olduğunu söyler.",
+        "ar": "واختار النووي من جهة الدليل النقضَ مع نقله المذهب."
+       }
+      },
+      "hanbali": {
+       "answer": "yes",
+       "term": null,
+       "basis": "madhhab",
+       "source": {
+        "work": "kashshaf"
+       },
+       "status": "draft"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -42,6 +42,11 @@ def gui_main() -> int:
     app.setApplicationName(APP_NAME)
     app.setApplicationVersion(__version__)
     app.setDesktopFileName("fiqhboard")
+    from fiqhboard.gui import icon, theme
+
+    theme.load_fonts()
+    theme.apply(app)
+    app.setWindowIcon(icon.app_icon())
     window = MainWindow()
     window.show()
     return app.exec()

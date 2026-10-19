@@ -15,7 +15,7 @@ dependencies = ["PySide6>=6.6"]
 
 keywords = ["fiqh", "islamic law", "madhhab", "hanafi", "maliki", "shafii", "hanbali", "islamic studies"]
 classifiers = [
-    "Development Status :: 1 - Planning",
+    "Development Status :: 2 - Pre-Alpha",
     "Environment :: X11 Applications :: Qt",
     "Intended Audience :: Education",
     "Intended Audience :: Science/Research",
@@ -47,4 +47,4 @@ path = "src/fiqhboard/__init__.py"
 packages = ["src/fiqhboard"]
 
 [tool.hatch.build.targets.sdist]
-exclude = ["FiqhBoard_Handoff.md", "FIQHBOARD_TODO.md", "js/"]
+exclude = ["FiqhBoard_Handoff.md", "FIQHBOARD_TODO.md", "js/", "tools/", "assets/screenshots/"]
